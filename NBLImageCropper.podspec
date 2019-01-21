@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+从相机或相册选取照片并剪裁到指定尺寸的功能。Crop phone by custom size from camera or album.
                        DESC
 
   s.homepage         = 'https://github.com/yjh4866/NBLImageCropper'
