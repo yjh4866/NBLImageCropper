@@ -52,7 +52,7 @@
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> *)info
 {
     // 加载Bundle
-    NSBundle *bundle = [NSBundle bundleWithIdentifier:@"org.cocoapods.NBLImageCropper"];
+    NSBundle *bundle = [NSBundle bundleForClass:NBLImageCropper.class];
     // 获取视图控制器
     NBLImageCropperVC *imageCropperVC = [[UIStoryboard storyboardWithName:@"NBLImageCropper.bundle/NBLImageCropper" bundle:bundle] instantiateInitialViewController];
     // 进入剪裁页面
