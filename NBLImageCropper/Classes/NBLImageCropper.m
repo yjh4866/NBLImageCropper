@@ -74,10 +74,9 @@
     UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
     imagePicker.sourceType = sourceType;
     if (sourceType == UIImagePickerControllerSourceTypeCamera) {
-        imagePicker.cameraDevice = UIImagePickerControllerCameraDeviceFront;
-        imagePicker.cameraViewTransform = CGAffineTransformScale(imagePicker.cameraViewTransform, -1, 1);
+        imagePicker.cameraDevice = self.cameraDevice;
     }
-    //    imagePicker.allowsEditing = YES;
+//    imagePicker.allowsEditing = YES;
     imagePicker.delegate = self;
     [viewController presentViewController:imagePicker animated:YES completion:nil];
 }

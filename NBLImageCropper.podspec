@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NBLImageCropper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '从相机或相册选取照片并剪裁的功能。Crop phone from camera or album.'
 
 # This description is used to generate tags and improve search results.

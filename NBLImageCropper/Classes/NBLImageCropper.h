@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, assign) CGSize targetSize;
+@property (nonatomic, assign) UIImagePickerControllerCameraDevice cameraDevice;
 
 + (instancetype)sharedInstance;
 
